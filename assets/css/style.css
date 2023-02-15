@@ -1,0 +1,240 @@
+/*
+#2e2e2e / #fff / #000 / #1d2c2f/*/
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+/*------------------------
+        HEADER
+--------------------------*/
+
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+header section article {
+    width: 40%;
+
+}
+
+header section article h1 {
+    font-size: 7rem;
+    font-family: 'Lora';
+    font-weight: 400;
+    margin: 0;
+}
+
+header section article p {
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+header section img {
+    width: 60%;
+}
+
+/*---------------------
+        MAIN
+------------------------*/
+
+
+main section:nth-of-type(1) {
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section:nth-of-type(1).sticky {
+    position: sticky;
+    top: 0;
+}
+
+main section:nth-of-type(1) nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 105px;
+}
+
+main section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15vh 0;
+}
+
+main section:nth-of-type(2) img {
+    width: 60%;
+    height: 60vh;
+}
+
+main section:nth-of-type(2) article {
+    font-size: 1.8rem;
+    padding: 0 15px;
+    width: 40%;
+}
+
+main section:nth-of-type(2) article h1 {
+    font-family: 'Lora';
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+main section:nth-of-type(2) article p {
+    padding: 15px;
+    word-spacing: 7px;
+}
+
+main section:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main section:nth-of-type(3) article {
+    width: 80%;
+}
+
+main section:nth-of-type(3) article h1 {
+    font-family: 'Lora';
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+main section:nth-of-type(3) article p {
+    font-size: 1.8rem;
+    word-spacing: 7px;
+    padding: 2vh 0;
+    width: 45%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) div {
+    padding: 30px;
+    text-align: center;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) div img {
+    width: 480px;
+}
+
+/*-------------------
+        FOOTER
+---------------------*/
+
+footer section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20vh 70px;
+    background-color: black;
+    margin-top: 15vh;
+    color: white;
+}
+
+footer section:nth-of-type(1) article {
+    width: 35%;
+}
+
+footer article h1 {
+    font-family: 'Lora';
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+footer section:nth-of-type(1) article p {
+    font-size: 1.8rem;
+    word-spacing: 7px;
+    padding: 20px 0;
+}
+
+footer section:nth-of-type(1) form {
+    width: 30%;
+}
+
+footer section:nth-of-type(1) div {
+    font-family: 'Lora';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.8rem;
+    padding: 1vh;
+}
+
+footer section:nth-of-type(1) div input {
+    padding: 3px;
+}
+
+footer section:nth-of-type(1) div textarea {
+    font-family: 'WorkSans';
+    padding: 3px;
+}
+
+.submit {
+    width: 20%;
+    margin-top: 2vh;
+}
+
+footer section:nth-of-type(2) {
+    background-color: #1d2c2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    color: white;
+}
+
+footer section:nth-of-type(2) h2 {
+    font-family: 'Lora';
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+footer section:nth-of-type(2) nav {}
+
+footer section:nth-of-type(2) nav a {
+    color: white;
+    font-family: 'Lora';
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
